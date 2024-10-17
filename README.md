@@ -86,6 +86,8 @@ Combining all the complexities we have $\Theta(v) + \Theta(v \log v) + \Theta(v)
 This makes sense because my code will check every possible permutation of the vertices to see if the mapping works, this is $\Theta(v!)$. For each of those permutations it will iterate over all $v$ vertices and check all $\approx v$ neighbors to see if the mapping works $\Theta(v^2)$. $$\Theta(v!)* \Theta(v^2) = \Theta(v! \cdot v^2)$$
  
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
 I used this to help me write ```arraysEqual```: https://stackoverflow.com/questions/3115982/how-to-check-if-two-arrays-are-equal-with-javascript
-I created most of the code myself but I use this to help me figure out how to write my checkmapping function although I only used it conceptually:
+
+I created most of the code myself but I use this to help me figure out how to write my checkmapping function although I mainly used it conceptually:
 https://github.com/COSC3020/detecting-isomorphism-Assel-Aljazwe
