@@ -83,7 +83,7 @@ function are_isomorphic(graph1, graph2) {
 ```
 
 Combining all the complexities we have $\Theta(v) + \Theta(v \log v) + \Theta(v)* \Theta(v)* \Theta(v!) \in \Theta(v^2 v!)$.
-This makes sense because my code will check every possible permutation of the vertices to see if the mapping works, this is $\Theta(v!)$. For each of those permutations it will iterate over all $v$ vertices and check all $\approx v$ neighbors to see if the mapping works.
+This makes sense because my code will check every possible permutation of the vertices to see if the mapping works, this is $\Theta(v!)$. For each of those permutations it will iterate over all $v$ vertices and check all $\approx v$ neighbors to see if the mapping works $\Theta(v^2)$. $$\Theta(v!)* \Theta(v^2) = \Theta(v! \codt v^2)$$
  
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 I used this to help me write ```arraysEqual```: https://stackoverflow.com/questions/3115982/how-to-check-if-two-arrays-are-equal-with-javascript
