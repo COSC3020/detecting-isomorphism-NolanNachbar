@@ -89,5 +89,5 @@ I certify that I have listed all sources used to complete this exercise, includi
 
 I used this to help me write ```arraysEqual```: https://stackoverflow.com/questions/3115982/how-to-check-if-two-arrays-are-equal-with-javascript
 
-I created most of the code myself but I use this to help me figure out how to write my checkmapping function although I mainly used it conceptually:
+I created most of the code myself but I use this to help me figure out how to write my checkmapping function although I mainly used it conceptually. I also used it to check my complexity analysis results:
 https://github.com/COSC3020/detecting-isomorphism-Assel-Aljazwe
